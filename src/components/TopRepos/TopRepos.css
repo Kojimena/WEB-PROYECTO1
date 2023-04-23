@@ -1,0 +1,40 @@
+.dashboard-sidebar {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    z-index: 30;
+    display: flex;
+    min-height: 50vh;
+    max-height: 100vh;
+    flex-direction: column;
+    padding-right: 32px;
+    padding-left: 32px;
+    align-items: center !important;
+    background-color: #0d1117;
+}
+.button-green{
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+    padding: 3px 12px;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.button-green .repo-image{
+    stroke: #fff;
+    fill: #fff;
+    stroke-width: 0px;
+}
+
+.dashboard-sidebar h2{
+    font-size: 14px;
+}
+
+h2.header-sidebar {
+    justify-content: space-between !important;
+    display: flex;
+    width: 280px;
+}
