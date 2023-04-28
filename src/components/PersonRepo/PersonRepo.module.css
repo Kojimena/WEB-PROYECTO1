@@ -1,0 +1,13 @@
+.repopersoncontainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 28px;
+}
+
+.repopersoncontainer img {
+  width: 18px;
+  height: 18px;
+  padding: 10px;
+}

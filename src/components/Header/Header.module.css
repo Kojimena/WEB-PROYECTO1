@@ -3,19 +3,25 @@
     padding: 8px;
     font-size: 14px;
     line-height: 1.5;
-    color: var(--color-header-text);
-    background-color: var(--color-header-bg);
+    color: #fff;
+    background-color: #161b22;
     align-items: center;
     flex-wrap: nowrap;
 
 }
 
-.header-search-logo{
+.headersearchlogo{
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
     width: 325px;
 
+}
+
+.headersearchlogo img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
 }
 
 .header__nav{
@@ -32,12 +38,6 @@
     font-weight: bold;
 }
 
-img.header__img {
-    width: 30px;
-    height: 30px;
-    padding: 10px;
-}
-
 .header__user {
     display: flex;
     align-items: center;
@@ -45,19 +45,13 @@ img.header__img {
 
 }
 
-img.header__user-bell {
+.header__user img{
     width: 20px;
     height: 20px;
     padding: 10px;
 }
 
-img.header__user-plus {
-    width: 20px;
-    height: 20px;
-    padding: 10px;
-}
-
-.header-searchbar{
+.headersearchbar{
     width: 100%;
     max-width: 100%;
     padding: 4px;
@@ -67,32 +61,32 @@ img.header__user-plus {
     border: 1px solid #30363d;
     box-shadow: none;
     border-radius: 6px;
+    display: flex;
 }
 
-.header-searchbar__input{
+.headersearchbar input{
     width: 100%;
     height: 100%;
     font-size: inherit;
     background-color: transparent;
     border: 0;
     outline: 0;
-    color: #c9d1d9;
 }
 
-.header-searchbar {
-    display: flex;
+.headersearchbar input::placeholder{
+    color: #dadde1;
 }
 
-img.header__user-circle {
-    width: 22px;
-    height: 22px;
-    padding: 10px;
-}
 
-img.header-searchbar__slash {
+.headersearchbar img {
     background-color: #0d1117;
     border: 1px solid #30363d;
     padding: 4px;
-    border-radius: 6px;
+    border-radius: 4px;
+    height: 50%;
+    width: 10px;
 }
+
+
+
 
