@@ -24,12 +24,29 @@ const TopRepos = () => (
       <input type="text" placeholder="Find a repository..." />
     </div>
     <div className={styles.headersidelist}>
-      <PersonRepo name="Pedro" namerepo="react" />
-      <PersonRepo name="Markalbrand" namerepo="AED-PROYECTO2" />
-      <PersonRepo name="Markalbrand" namerepo="AED-PROYECTO1" />
-      <PersonRepo name="Markalbrand" namerepo="WEB-PROYECTO1" />
-      <PersonRepo name="Markalbrand" namerepo="WEB-L8" />
-      <PersonRepo name="Markalbrand" namerepo="WEB-L7" />
+      <PersonRepo name="Kojimena" namerepo="PlannyApp" imgsrc="src/assets/kojimena.png" />
+      <PersonRepo name="Kojimena" namerepo="BD-Proyecto2" imgsrc="src/assets/kojimena.png" />
+      <PersonRepo name="Markalbrand" namerepo="AED-PROYECTO2" imgsrc="src/assets/mark.png" />
+      <PersonRepo name="Kojimena" namerepo="BD-Proyecto1" imgsrc="src/assets/kojimena.png" />
+      <PersonRepo name="Kojimena" namerepo="Proyecto2_MP" imgsrc="src/assets/kojimena.png" />
+      <PersonRepo name="Kojimena" namerepo="PM-L6" imgsrc="src/assets/kojimena.png" />
+      <PersonRepo name="Kojimena" namerepo="PM-L12" imgsrc="src/assets/kojimena.png" />
+      <button type="button" className={styles.headersideviewall}>
+        Show more
+      </button>
+    </div>
+    <div className={styles.headersidefooter}>
+      <h2 className={styles.headersidebar}>
+        Recent activity
+      </h2>
+      <div className={styles.headersideborderrounded}>
+        <p className={styles.headerp}>
+          When you take actions across GitHub,
+          <br />
+          {" "}
+          we’ll provide links to that activity here.
+        </p>
+      </div>
     </div>
   </div>
 )

@@ -30,7 +30,7 @@
     flex-wrap: nowrap;
     margin-left: 20px;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px;
 }
 
 .header__nav a{

@@ -88,3 +88,55 @@ h2.headersidebar {
     justify-content: flex-start;
     margin-top: 16px;
 }
+
+.headersideviewall{
+    color: #7d8590;
+    font-size: 12px;
+    background-color: transparent;
+    text-align: left;
+    padding: 2px 0px 0px 10px;
+    margin-top: 10px;
+    border : none;
+    outline: none;
+}
+
+.headersideviewall:hover{
+    color: #2f81f7;
+    text-decoration: none;
+    border : none;
+    outline: none;
+}
+
+.headersideviewall:focus{
+    color: #2f81f7;
+    text-decoration: none;
+    border : none;
+    outline: none;
+}
+
+.headersidefooter{
+    width: 104%;
+    max-width: 104%;
+    font-size: inherit;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 16px;
+}
+
+.headersideborderrounded{
+    border-style: dashed !important;
+    border-color: #30363d;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.headersideborderrounded p{
+    min-height: 20px;
+    font-size: 12px;
+    color: #7d8590;
+    text-align: left;
+    margin-left: 20px;
+}
+
