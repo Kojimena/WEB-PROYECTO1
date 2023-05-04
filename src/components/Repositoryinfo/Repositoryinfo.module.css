@@ -19,7 +19,7 @@
     justify-content:flex-start;
     width:100%;
     border-bottom: 1px solid #30363d;
-    padding: 16px;
+    padding: 16px 0px;
 }
 
 .repositoryinfo__title{
@@ -40,7 +40,13 @@
     justify-content: center;
     border: 0.5px solid #7d8590;
     border-radius: 6px;
+    background-color: #21262d;
 
+}
+
+.infobutton:hover{
+    background-color: #30363d;
+    border: 1px solid #7d8590;
 }
 
 svg{

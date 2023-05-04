@@ -26,6 +26,13 @@
     border-radius: 6px;
 }
 
+.dashboardsidebar a:hover{
+    background-color: #2ea043;
+    border-color: #2ea043;
+    color: #fff;
+    text-decoration: none;
+}
+
 .dashboard-sidebar h2{
     font-size: 14px;
 }
@@ -75,7 +82,7 @@ h2.headersidebar {
     outline: 0;
     color: #c9d1d9;
     font-size: 14px;
-    padding: 5px 12px;
+    padding: 2px 6px;
 }
 
 .headersidelist{

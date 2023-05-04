@@ -6,6 +6,8 @@ import SecondaryNav from "./components/SecondaryNav/SecondaryNav"
 import CreatedRepo from "./components/CreatedRepo/CreatedRepo"
 import Timeline from "./components/Timeline/Timeline"
 import Explorerepo from "./components/Explorerepo/Explorerepo"
+import Footer from "./components/Footer/Footer"
+import Prefooter from "./components/Prefooter/Prefooter"
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
             <CreatedRepo name="denn1s" namerepo="chat-server-sample" imgsrc="src/assets/denn1s.png" />
             <CreatedRepo name="jazurdia" namerepo="react" imgsrc="src/assets/javier.png" />
             <CreatedRepo name="denn1s" namerepo="vitest" imgsrc="src/assets/denn1s.png" />
+            <Prefooter />
+            <Footer />
           </div>
           <div className="Body__right">
             <Timeline />

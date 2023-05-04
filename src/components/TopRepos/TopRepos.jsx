@@ -11,7 +11,7 @@ const TopRepos = () => (
           <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75
           0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072
           1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5
-          12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 
+          12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249
           0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"
           />
         </svg>
@@ -24,13 +24,55 @@ const TopRepos = () => (
       <input type="text" placeholder="Find a repository..." />
     </div>
     <div className={styles.headersidelist}>
-      <PersonRepo name="Kojimena" namerepo="PlannyApp" imgsrc="src/assets/kojimena.png" />
-      <PersonRepo name="Kojimena" namerepo="BD-Proyecto2" imgsrc="src/assets/kojimena.png" />
-      <PersonRepo name="Markalbrand" namerepo="AED-PROYECTO2" imgsrc="src/assets/mark.png" />
-      <PersonRepo name="Kojimena" namerepo="BD-Proyecto1" imgsrc="src/assets/kojimena.png" />
-      <PersonRepo name="Kojimena" namerepo="Proyecto2_MP" imgsrc="src/assets/kojimena.png" />
-      <PersonRepo name="Kojimena" namerepo="PM-L6" imgsrc="src/assets/kojimena.png" />
-      <PersonRepo name="Kojimena" namerepo="PM-L12" imgsrc="src/assets/kojimena.png" />
+      <PersonRepo
+        name="Kojimena"
+        namerepo="PlannyApp"
+        imgsrc="src/assets/kojimena.png"
+        fontsize="14px"
+        fontweight="500"
+      />
+      <PersonRepo
+        name="Kojimena"
+        namerepo="BD-Proyecto2"
+        imgsrc="src/assets/kojimena.png"
+        fontsize="14px"
+        fontweight="500"
+      />
+      <PersonRepo
+        name="markalbrand56"
+        namerepo="AED-PROYECTO2"
+        imgsrc="src/assets/mark.png"
+        fontsize="14px"
+        fontweight="500"
+      />
+      <PersonRepo
+        name="Kojimena"
+        namerepo="BD-Proyecto1"
+        imgsrc="src/assets/kojimena.png"
+        fontsize="14px"
+        fontweight="500"
+      />
+      <PersonRepo
+        name="Kojimena"
+        namerepo="Proyecto2_MP"
+        imgsrc="src/assets/kojimena.png"
+        fontsize="14px"
+        fontweight="500"
+      />
+      <PersonRepo
+        name="Kojimena"
+        namerepo="PM-L6"
+        imgsrc="src/assets/kojimena.png"
+        fontsize="14px"
+        fontweight="500"
+      />
+      <PersonRepo
+        name="markalbrand56"
+        namerepo="IS-PROYECTO"
+        imgsrc="src/assets/mark.png"
+        fontsize="14px"
+        fontweight="500"
+      />
       <button type="button" className={styles.headersideviewall}>
         Show more
       </button>

@@ -1,0 +1,77 @@
+.footercontainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin-bottom: 5rem;
+    max-width: 90%;
+    width: 100%;
+  }
+  
+  .footerelements {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    width: 45%;
+  }
+
+
+  .footerelements svg{
+    width: 24px;
+    height: 24px;
+  }
+  
+  .footerlinks {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-grow: 1;
+    color: #7d8590;
+    gap: 4px;
+  }
+
+  .footerlistitem a{
+    color: #7d8590;
+    text-decoration: none;
+  }
+
+    .footerlistitem a:hover{
+        color: #2f81f7;
+        text-decoration: underline;
+    }
+  
+  .footerlist{
+    list-style: none !important;
+    font-size: 12px;
+    color: #7d8590;
+    padding-left: 24px;
+    text-align: left;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .footerOcticon {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .footertitle {
+    font-size: 0.75rem;
+    color: rgba(88, 96, 105, 1);
+  }
+  
+  .octicon {
+    fill: currentColor;
+  }
+  
+  .octiconMarkGithub {
+    display: block;
+    margin-right: 0.5rem;
+    float: left;
+  }
+  

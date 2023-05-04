@@ -1,7 +1,6 @@
 .explorerepocontainer{
     display: flex;
     flex-direction: column;
-    padding: 0px 10px;
     margin: 0px 0px;
     justify-content: center;
     align-items: center;

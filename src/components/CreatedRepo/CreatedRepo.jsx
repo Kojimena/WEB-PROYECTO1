@@ -21,7 +21,7 @@ const CreatedRepo = ({ name, namerepo, imgsrc }) => (
     </div>
     <div className={styles.repopersonbox}>
       <div className={styles.repopersonboxinfo}>
-        <PersonRepo name={name} namerepo={namerepo} imgsrc={imgsrc} />
+        <PersonRepo name={name} namerepo={namerepo} imgsrc={imgsrc} fontsize="16px" fontweight="bold" />
         <button type="button" className={styles.repopersonbutton}>
           <svg height="16" viewBox="0 0 16 16" version="1.1" width="16" color="#7d8590" className="octicon">
             <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1
