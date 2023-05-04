@@ -1,0 +1,43 @@
+.timelineList{
+    list-style: none !important;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.timelinecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.timelineTitle{
+    justify-content: space-between !important;
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+    align-items: center;
+}
+
+.timelinefooter{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    margin-left: 60px;
+}
+
+.timelinefooter a{
+    color: #7d8590;
+    font-size: 12px;
+}
+
+.timelinefooter a:hover{
+    color: #2f81f7;
+    text-decoration: none;
+}

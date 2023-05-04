@@ -25,7 +25,7 @@ const Header = () => (
     <div className={styles.header__user}>
       <img src={bellicon} alt="bell" />
       <img src={plusheader} alt="plus" />
-      <img src={circle} alt="circle" />
+      <img className="styles.userpic" src="src/assets/kojimena.png" alt="circle" />
     </div>
   </header>
 )

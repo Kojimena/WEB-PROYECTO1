@@ -4,6 +4,8 @@ import Header from "./components/Header/Header"
 import TopRepos from "./components/TopRepos/TopRepos"
 import SecondaryNav from "./components/SecondaryNav/SecondaryNav"
 import CreatedRepo from "./components/CreatedRepo/CreatedRepo"
+import Timeline from "./components/Timeline/Timeline"
+import Explorerepo from "./components/Explorerepo/Explorerepo"
 
 function App() {
   return (
@@ -21,9 +23,12 @@ function App() {
             <CreatedRepo name="durini309" namerepo="MaterialCalculator" imgsrc="src/assets/durini.png" />
             <CreatedRepo name="TheKiesling" namerepo="netflix" imgsrc="src/assets/kiesling.png" />
             <CreatedRepo name="denn1s" namerepo="chat-server-sample" imgsrc="src/assets/denn1s.png" />
+            <CreatedRepo name="jazurdia" namerepo="react" imgsrc="src/assets/javier.png" />
+            <CreatedRepo name="denn1s" namerepo="vitest" imgsrc="src/assets/denn1s.png" />
           </div>
           <div className="Body__right">
-            <h1>HOLA</h1>
+            <Timeline />
+            <Explorerepo />
           </div>
         </div>
       </div>

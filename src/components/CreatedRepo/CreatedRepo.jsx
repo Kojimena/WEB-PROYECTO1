@@ -1,7 +1,6 @@
 import React from "react"
 import styles from "./CreatedRepo.module.css"
 import PropTypes from "prop-types"
-import circle from "../../assets/circle.svg"
 import PersonRepo from "../PersonRepo/PersonRepo"
 
 const CreatedRepo = ({ name, namerepo, imgsrc }) => (
@@ -12,7 +11,9 @@ const CreatedRepo = ({ name, namerepo, imgsrc }) => (
         {`${name} `}
       </span>
       <span className={styles.repopersondescription}>
-        {" created a repository"}
+        &nbsp;
+        created a repository
+        &nbsp;
       </span>
       <span className={styles.repopersonname}>
         {`${name}/${namerepo} · 1 hour ago`}
