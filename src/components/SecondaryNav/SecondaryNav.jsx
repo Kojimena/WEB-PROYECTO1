@@ -1,16 +1,23 @@
 import React from "react"
-import styles from "./SecondaryNav.module.css"
+
+import {
+  Nav,
+  NavLink,
+  ButtonFirst,
+  ButtonSecond,
+  Beta,
+} from "./SecondaryNavDesign"
 
 const SecondaryNav = () => (
-  <nav className={styles.Body__center__nav}>
-    <div className={styles.buttonfirst}>
-      <a href="google.com">For you</a>
-      <span className={styles.buttonbeta}>Beta</span>
-    </div>
-    <div className={styles.buttonsecond}>
-      <a href="google.com">Following</a>
-    </div>
-  </nav>
+  <Nav>
+    <ButtonFirst>
+      <NavLink href="google.com">For you</NavLink>
+      <Beta>Beta</Beta>
+    </ButtonFirst>
+    <ButtonSecond>
+      <NavLink href="google.com">Following</NavLink>
+    </ButtonSecond>
+  </Nav>
 )
 
 export default SecondaryNav
