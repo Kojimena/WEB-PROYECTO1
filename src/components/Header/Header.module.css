@@ -111,6 +111,13 @@
     width: 10px;
 }
 
+.header__user svg {
+    position: absolute;
+    right: 12px;
+    fill: #fff;
+    cursor: pointer;
+}
+
 .header__user span {
     position: absolute;
     /* left: 13px; */
@@ -126,12 +133,7 @@
     border-radius: 50%;
 }
 
-svg.octicondropdown {
-    position: absolute;
-    right: 12px;
-    fill: #fff;
-    cursor: pointer;
-}
+
 
 
 
