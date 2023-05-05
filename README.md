@@ -10,10 +10,10 @@
 <h4 align="center"> Copia de la página principal de Github realizado en React </h4>
 
 
-<p align="center">
+<p align="center" justify="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
+  <a href="#download">Tests</a> •
   <a href="#credits">Credits</a> 
 </p>
 
@@ -21,9 +21,33 @@
 
 ## Key Features
 
-* Feature1
-* Feature2
-* Feature3
+* Vite
+```bash
+# Install dependencies
+$ yarn add vite
+# run the app
+$ yarn dev
+```
+
+* Css modules
+```bash
+# Install dependencies
+$ yarn add vite-plugin-react-css-modules
+```
+
+* Emotion
+```bash
+# Install dependencies
+$ yarn add @emotion/styled
+```
+
+* Vitest
+```bash
+# Install dependencies
+$ yarn add vitest @testing-library/jest-dom @testing-library/react jsdom
+```
+
+
 
 ## How To Use
 
@@ -46,13 +70,14 @@ $ yarn
 $ yarn dev
 ```
 
-> **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
+## Tests
 
-## Download
-
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
+```bash
+# Run the tests
+$ yarn test
+```
+<a href="https://github.com/Kojimena/WEB-PROYECTO1"><img src="/Users/jime/Uvgcoding/WEB2023/WEB-PROYECTO1/src/assets/test.png" alt="Github made in react" width="600"></a>
 
 
 ## Credits
@@ -68,11 +93,6 @@ This software uses the following open source packages:
 
 <a href="https://bmc.link/Kojimena" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;" ></a>
 
-
-## You may also like...
-
-- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
-- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
 
 ## About me
 
