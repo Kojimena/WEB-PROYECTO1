@@ -77,7 +77,7 @@ $ yarn dev
 # Run the tests
 $ yarn test
 ```
-<a href="https://github.com/Kojimena/WEB-PROYECTO1"><img src="/Users/jime/Uvgcoding/WEB2023/WEB-PROYECTO1/src/assets/test.png" alt="Github made in react" width="600"></a>
+<a href="https://github.com/Kojimena/WEB-PROYECTO1"><img src="https://github.com/Kojimena/WEB-PROYECTO1/blob/main/src/assets/test.png?raw=true" alt="Github made in react" width="600"></a>
 
 
 ## Credits
