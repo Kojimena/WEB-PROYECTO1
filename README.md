@@ -10,14 +10,16 @@
 <h4 align="center"> Copia de la página principal de Github realizado en React </h4>
 
 
-<p align="center" justify="center">
+<p align="center" >
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Tests</a> •
+  <a href="#tests">Tests</a> •
   <a href="#credits">Credits</a> 
+  
 </p>
 
-![screenshot](https://media.giphy.com/media/JiwsjClNqXCnu4n1CR/giphy.gif)
+![screenshot](https://media.giphy.com/media/JiwsjClNqXCnu4n1CR/giphy.gif) 
+
 
 ## Key Features
 
