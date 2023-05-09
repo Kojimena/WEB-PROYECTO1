@@ -19,7 +19,7 @@ const Timelineitem = ({ date, link }) => (
           {date}
         </relative-time>
       </div>
-      <a href="https://github.blog/changelog/2023-04-28-secret-scanning-now-supports-validation-checks-for-supported-partner-patterns">
+      <a href="https://github.blog/">
         {link}
       </a>
     </div>

@@ -1,6 +1,6 @@
 import React from "react"
-import styles from "./CreatedRepo.module.css"
 import PropTypes from "prop-types"
+import styles from "./CreatedRepo.module.css"
 import PersonRepo from "../PersonRepo/PersonRepo"
 
 const CreatedRepo = ({ name, namerepo, imgsrc }) => (
