@@ -12,7 +12,7 @@ const Explorerepo = () => (
         description="Thesaurus and controlled vocabulary browser using SKOS and SPARQL"
         numberviews={200}
         language="PHP"
-        imgsrc="src/assets/repo2.png"
+        imgsrc="/assets/repo2.png"
         color="yellow"
       />
       <Repositoryinfo
@@ -21,7 +21,7 @@ const Explorerepo = () => (
         description="A declarative, efficient, and flexible JavaScript library for building user interfaces."
         numberviews="1.1k"
         language="JavaScript"
-        imgsrc="src/assets/repo.png"
+        imgsrc="/assets/repo.png"
         color="lightgreen"
       />
       <Repositoryinfo
@@ -30,7 +30,7 @@ const Explorerepo = () => (
         description="A React-based UI toolkit for the web"
         numberviews="1.4k"
         language="TypeScript"
-        imgsrc="src/assets/repo3.png"
+        imgsrc="/assets/repo3.png"
         color="orange"
       />
     </div>

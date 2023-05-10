@@ -20,13 +20,13 @@ function App() {
         <div className="Body__apart">
           <div className="Body__center">
             <SecondaryNav />
-            <CreatedRepo name="jazurdia" namerepo="react-only-lab" imgsrc="src/assets/javier.png" />
-            <CreatedRepo name="TheKiesling" namerepo="ESLint" imgsrc="src/assets/kiesling.png" />
-            <CreatedRepo name="durini309" namerepo="MaterialCalculator" imgsrc="src/assets/durini.png" />
-            <CreatedRepo name="TheKiesling" namerepo="netflix" imgsrc="src/assets/kiesling.png" />
-            <CreatedRepo name="denn1s" namerepo="chat-server-sample" imgsrc="src/assets/denn1s.png" />
-            <CreatedRepo name="jazurdia" namerepo="react" imgsrc="src/assets/javier.png" />
-            <CreatedRepo name="denn1s" namerepo="vitest" imgsrc="src/assets/denn1s.png" />
+            <CreatedRepo name="jazurdia" namerepo="react-only-lab" imgsrc="/assets/javier.png" />
+            <CreatedRepo name="TheKiesling" namerepo="ESLint" imgsrc="/assets/kiesling.png" />
+            <CreatedRepo name="durini309" namerepo="MaterialCalculator" imgsrc="/assets/durini.png" />
+            <CreatedRepo name="TheKiesling" namerepo="netflix" imgsrc="/assets/kiesling.png" />
+            <CreatedRepo name="denn1s" namerepo="chat-server-sample" imgsrc="/assets/denn1s.png" />
+            <CreatedRepo name="jazurdia" namerepo="react" imgsrc="/assets/javier.png" />
+            <CreatedRepo name="denn1s" namerepo="vitest" imgsrc="/assets/denn1s.png" />
             <Prefooter />
             <Footer />
           </div>

@@ -27,49 +27,49 @@ const TopRepos = () => (
       <PersonRepo
         name="Kojimena"
         namerepo="PlannyApp"
-        imgsrc="src/assets/kojimena.png"
+        imgsrc="/assets/kojimena.png"
         fontsize="14px"
         fontweight="500"
       />
       <PersonRepo
         name="Kojimena"
         namerepo="BD-Proyecto2"
-        imgsrc="src/assets/kojimena.png"
+        imgsrc="/assets/kojimena.png"
         fontsize="14px"
         fontweight="500"
       />
       <PersonRepo
         name="markalbrand56"
         namerepo="AED-PROYECTO2"
-        imgsrc="src/assets/mark.png"
+        imgsrc="/assets/mark.png"
         fontsize="14px"
         fontweight="500"
       />
       <PersonRepo
         name="Kojimena"
         namerepo="BD-Proyecto1"
-        imgsrc="src/assets/kojimena.png"
+        imgsrc="/assets/kojimena.png"
         fontsize="14px"
         fontweight="500"
       />
       <PersonRepo
         name="Kojimena"
         namerepo="Proyecto2_MP"
-        imgsrc="src/assets/kojimena.png"
+        imgsrc="/assets/kojimena.png"
         fontsize="14px"
         fontweight="500"
       />
       <PersonRepo
         name="Kojimena"
         namerepo="PM-L6"
-        imgsrc="src/assets/kojimena.png"
+        imgsrc="/assets/kojimena.png"
         fontsize="14px"
         fontweight="500"
       />
       <PersonRepo
         name="markalbrand56"
         namerepo="IS-PROYECTO"
-        imgsrc="src/assets/mark.png"
+        imgsrc="/assets/mark.png"
         fontsize="14px"
         fontweight="500"
       />

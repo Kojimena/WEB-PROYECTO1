@@ -1,9 +1,11 @@
+/* eslint-disable import/no-unresolved */
+/* eslint-disable import/no-absolute-path */
 import React from "react"
 import styles from "./Header.module.css"
-import gitlogo from "../../assets/github-logoheader.svg"
-import bellicon from "../../assets/bell.svg"
-import slash from "../../assets/slash.svg"
-import plusheader from "../../assets/plusheader.svg"
+import gitlogo from "/assets/github-logoheader.svg"
+import bellicon from "/assets/bell.svg"
+import slash from "/assets/slash.svg"
+import plusheader from "/assets/plusheader.svg"
 
 const Header = () => (
   <header className={styles.header}>
@@ -31,7 +33,7 @@ const Header = () => (
           />
         </svg>
       </div>
-      <img className="styles.userpic" src="src/assets/kojimena.png" alt="circle" />
+      <img className="styles.userpic" src="/assets/kojimena.png" alt="circle" />
       <span className="styles.unread" />
       <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" className="octicondropdown">
         <path d="m4.427 7.427 3.396 3.396a.25.25 0 0 0 .354 0l3.396-3.396A.25.25 0 0 0
