@@ -79,7 +79,7 @@ $ yarn dev
 # Run the tests
 $ yarn test
 ```
-<a href="https://github.com/Kojimena/WEB-PROYECTO1"><img src="https://github.com/Kojimena/WEB-PROYECTO1/blob/main/src/assets/test.png?raw=true" alt="Github made in react" width="600"></a>
+
 
 
 ## Credits
@@ -98,8 +98,9 @@ This software uses the following open source packages:
 
 ## About me
 
-Universidad Del Valle de Guatemala
+### Universidad Del Valle de Guatemala
 
+### GitHub [@Kojimena](https://github.com/Kojimena) 
 ---
 
-> GitHub [@Kojimena](https://github.com/Kojimena) &nbsp;&middot;&nbsp;
+
