@@ -3,6 +3,11 @@
     align-items:center;
     justify-content:flex-start;
     width:100%;
+    color : #fff;
+}
+
+h2.repositoryinfo__title{
+    color : #fff;
 }
 
 .repositoryinfo img{
